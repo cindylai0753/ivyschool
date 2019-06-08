@@ -1,0 +1,100 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", "Microsoft JhengHei"!important;
+    margin: 0 -8px;
+}
+.card-body.wow2 img{
+    width: 400px; 
+}
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: bisque;
+}
+.wow1:hover {
+    -webkit-animation: heartBeat 1s;
+    animation: heartBeat 1s;
+}
+.wow1:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+.wow2:hover {
+    -webkit-animation: swing 1s;
+    animation: swing 1s;
+}
+.wow3:hover{
+    -webkit-animation: swing 1s;
+    animation: slideOutUp 1s;
+}
+.flexslider{
+    margin: 0px !important; 
+}
+.page-item.active .page-link{
+    background-color: #ae6ef0;
+    border-color: #ae6ef0;
+}
+.flexslider .slides img{
+    /* margin: 0px; */
+    object-fit:cover !important;
+    object-position:center !important;
+} 
+.flex-control-nav{
+    display: none;
+}
+ul.list-unstyled{
+    font-size: 20px;
+    color: darkblue;
+    text-shadow: 1px 2px 4px #fafbfb;
+}
+h4{
+    font-weight: bolder;
+    text-shadow: 1px 2px 4px #fafbfb;
+}
+h5{
+    font-weight: bolder;
+    line-height: 1.5em;
+    color: darkblue;
+    text-shadow: 1px 2px 4px #fafbfb;
+}
+@media(max-width:768px){
+    .img-order{
+        order: 1;
+    }
+    .text-order{
+        order:2;
+    }
+}
+#content{
+    /* background-color: rgba(122, 224, 224, 0.2); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/content3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content1{
+    /* background-color: rgba(247, 91, 187, 0.2); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../images/page_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content2{
+    /* background-color: rgba(247, 91, 187, 0.2); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/外觀.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content3{
+    background-color: rgba(247, 91, 187, 0.2);
+}
+#content4{
+    background-color: rgba(85, 116, 219, 0.2);
+}
+#page-margin{
+    padding-top: 15px;
+}
+#accent{
+    background-image: url(../images/accent-1.png);
+    background-position: left;
+}

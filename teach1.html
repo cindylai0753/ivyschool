@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>慈園幼稚園</title>
+    <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css"> 
+    <link rel="stylesheet" href="./css/flexslider.css">
+</head>
+<body  id="content3">       
+    <!-- Place somewhere in the <body> of your page -->
+    <div class="flexslider carousel col-12">
+        <ul class="slides">
+          <li>
+            <img src="./images/logo.gif" />
+          </li>
+          <li>
+            <img src="./images/logo-02.gif" />
+          </li>
+          <li>
+            <img src="./images/logo-04.gif" />
+          </li>
+          <li>
+            <img src="./images/logo-05.gif" />
+          </li>
+          <!-- items mirrored twice, total of 12 -->
+        </ul>
+    </div>
+    
+    <nav class="navbar navbar-light navbar-expand-lg" style="font-size: 22px; background-color: #e931ae;">
+        <div class="container-fluid"> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item wow2">
+                        <a class="nav-link text-white" href="./content_2.html"><i class="fas fa-anchor"></i> 園所簡介</a>
+                    </li>
+                    <li class="nav-item wow2">
+                        <a class="nav-link text-white" href="#"><i class="fab fa-android"></i> 活動預告</a>
+                    </li>                    
+                    <li class="nav-item active wow2">
+                        <a class="nav-link" href="#"><i class="far fa-bell"></i> 教學特色<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item wow2">
+                        <a class="nav-link text-white" href="#"><i class="fas fa-apple-alt"></i> 課程內容</a>
+                    </li>
+                    <li class="nav-item wow2">
+                        <a class="nav-link text-white" href="#"><i class="fas fa-baby"></i> 活動剪影</a>
+                    </li>
+                    <li class="nav-item wow2">
+                            <a class="nav-link text-white" href="./index.html"><i class="fas fa-award"></i> 環境設備</a>
+                    </li> 
+                    <li class="nav-item dropdown wow2">
+                        <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" 
+                        aria-expanded="false"><i class="fas fa-hotel"></i> 小小家族</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://flic.kr/ps/3fHgKQ" target="_blank">采薇家</a>
+                            <a class="dropdown-item" href="https://flic.kr/ps/2xQ7G5" target="_blank">思文家</a>
+                            <a class="dropdown-item" href="https://flic.kr/ps/2xLppW" target="_blank">溱洧家</a>
+                            <a class="dropdown-item" href="https://flic.kr/ps/2y87cG" target="_blank">蓼莪家</a>
+                            <a class="dropdown-item" href="https://flic.kr/ps/2xNCv5" target="_blank">凱風家</a>
+                            <a class="dropdown-item" href="https://flic.kr/ps/2xLxHk" target="_blank">振鷺家</a>
+                        </div>
+                    </li>                  
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="button">
+                        <a href="./index.html"  style="color: white">回首頁</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="page-margin">               
+        <nav aria-label="...">
+            <ul class="pagination pagination-lg">
+                <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                    <i class="fas fa-cocktail"></i> 教學特色</i>
+                    <span class="sr-only">(current)</span>                
+                </span>
+                </li>
+                <li class="page-item wow3"><a class="page-link" href="./teach.html">
+                    <i class="fab fa-centos"></i> 蒙特梭利</i></a></li>
+                <li class="page-item wow3"><a class="page-link" href="./teach2.html">
+                    <i class="fas fa-cocktail"> 教育內容</i></a></li>
+                <li class="page-item wow3"><a class="page-link" href="./teach3.html">
+                    <i class="fab fa-centos"></i> 兒童的特徵</i></a></li>
+                <li class="page-item wow3"><a class="page-link" href="./teach4.html">
+                    <i class="fas fa-cocktail"> 幫助兒童成長</i></a></li>
+            </ul>
+        </nav><br>
+        <tr class="table-light">   
+            <div class="wow1" style="text-align: center">
+                <a  href="#"><img src="./images/speech-01.jpg" alt="speech-01"></a>
+            </div>
+        </tr> 
+        <br><br>
+    </div>
+
+    <script src="./js/jquery-3.4.1.min.js"></script> <!-- 步驟有可錯, 先放jquery再放bootstrap -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery.flexslider-min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init(); //初始化wow.js 要用大寫 wow()
+        $('.flexslider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            itemWidth: 210,
+            itemMargin: 0,
+            minItems: 2,
+            maxItems: 2
+        });
+    </script>
+</body>
+</html>
