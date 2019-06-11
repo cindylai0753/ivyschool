@@ -1,6 +1,10 @@
 body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji", "Microsoft JhengHei"!important;
     margin: 0 -8px;
+    position: relative;
+}
+#poz{
+    overflow: auto;
 }
 .card-body.wow2 img{
     width: 400px; 

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/animate.css"> 
     <link rel="stylesheet" href="./css/flexslider.css">
 </head>
-<body  id="content">       
+<body data-spy="scroll" data-target="#navbar-example" id="content">       
     <!-- Place somewhere in the <body> of your page -->
     <div class="flexslider carousel col-12">
         <ul class="slides">
@@ -43,7 +43,7 @@
                         <a class="nav-link text-white" href="#"><i class="fab fa-android"></i> 活動預告</a>
                     </li>                    
                     <li class="nav-item active wow2">
-                        <a class="nav-link" href="#"><i class="far fa-bell"></i> 教學特色<span class="sr-only">(current)</span></a>
+                        <a href="#"><img src="./images/教學特色.png" alt="教學特色"></a>
                     </li>
                     <li class="nav-item wow2">
                         <a class="nav-link text-white" href="#"><i class="fas fa-apple-alt"></i> 課程內容</a>
@@ -79,7 +79,7 @@
             <ul class="pagination pagination-lg">
                 <li class="page-item active" aria-current="page">
                 <span class="page-link">
-                    <i class="fas fa-cocktail"></i> 蒙特梭利</i>
+                    <i class="fas fa-cocktail"></i> 兒童的特徵</i>
                     <span class="sr-only">(current)</span>                
                 </span>
                 </li>
@@ -87,20 +87,103 @@
                     <i class="fab fa-centos"></i> 教學特色</i></a></li>
                 <li class="page-item wow3"><a class="page-link" href="./teach2.html">
                     <i class="fas fa-cocktail"> 教育內容</i></a></li>
-                <li class="page-item wow3"><a class="page-link" href="./teach3.html">
-                    <i class="fab fa-centos"></i> 兒童的特徵</i></a></li>
+                <li class="page-item wow3"><a class="page-link" href="./teach.html">
+                    <i class="fab fa-centos"></i> 蒙特梭利</i></a></li>
                 <li class="page-item wow3"><a class="page-link" href="./teach4.html">
                     <i class="fas fa-cocktail"> 幫助兒童成長</i></a></li>
             </ul>
-        </nav>
-        <ul class="list-unstyled">            
-        </ul>  
-
-        <div class="wow3" style="text-align: center">
-            <a  href="#"><img src="./images/top.gif" alt=""></a> 
-        </div> 
+        </nav>        
     </div>
-
+    <div class="container">
+        <div class="row" id="poz" style="height: 593px;">
+            <div class="col-4">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">擁有旺盛的自然性活動力</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">喜歡反覆操作一個工作 並且完全集中沈醉其中</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">從集中精神從事活動中 改善了脱逸現象</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">愛好秩序</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-5">漫無目的遊玩(如扮家家酒遊戲)</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-6">喜歡安靜、喜歡獨自工作</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-7">對於讀、學、說、算術、文化等知識，有強列求知慾</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-8">對於現實環境有一份愛戀的心</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-9">喜歡小團體的活動</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-a">會比較選擇思考之後才行動</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-b">直爽真誠的性格&豐富的情操</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-c">自立自主的養成</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-d">自發性的自我訓練</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-e">洋溢喜悅滿足的充實感</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-f">情緒安定又自信</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-g">對邪惡的誘惑心存警惕</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-h">具有良好的社交能力</a>
+                </div>
+                <div class="wow3" style="text-align: center">
+                    <br><br>
+                    <a  href="#list-item-1"><img src="./images/top.gif" alt=""></a> 
+                </div>
+            </div>
+            <div class="col-8">
+                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                    <h5 id="list-item-1">擁有旺盛的自然性活動力</h5>
+                        <p>孩子在肉體精神的成長，都藉著自動自發的活動來推展，將旺盛的生命力從不停的活動中發揮出來，
+                            如果孩子失去學習的意念便無法進步。</p>
+                    <h5 id="list-item-2">喜歡反覆操作一個工作 並且完全集中沈醉其中</h5>
+                        <p>孩子的工作沒有目的，和大人不一樣的，只不過透過這個活動以達成孩子內在的
+                            滿足感，當孩子反覆操作一個工作數次以後，臉上露出滿足的微笑。自動停止
+                            一項工作的時候，內心滿足的快感，便可以創造一個人格健全的自我。</p>
+                    <h5 id="list-item-3">從集中精神從事活動中 改善了脱逸現象</h5>
+                        <p>正常的孩子有驚人的集中力，不管周圍多吵或遇到什麼情況，孩子能不受影響
+                            而能繼續作業，周圍的不正常化兒童，也同時受到影響跟著操作某些教具，同時漸次歸向正常化的現象。</p>
+                    <h5 id="list-item-4">愛好秩序</h5>
+                        <p>孩子對於環境有一種潛在知性的愛情，有強烈秩序感的慾望。</p>
+                    <h5 id="list-item-5">漫無目的遊玩(如扮家家酒遊戲)</h5>
+                        <p>孩子比較喜歡有意識的工作。</p>
+                    <h5 id="list-item-6">喜歡安靜、喜歡獨自工作</h5>
+                        <p>孩子喜歡一個埋頭集中於一個人活動，不希望被打擾，旁人常被他視若無睹。</p>
+                    <h5 id="list-item-7">對於讀、學、說、算術、文化等知識，有強列求知慾</h5>
+                        <p>孩子想快一些像大哥哥、大姐姐一樣學會很多知識，他會主動熱烈追求任何知識，因此特別好學、好問，會有 100 個為什麼。</p>
+                    <h5 id="list-item-8">對於現實環境有一份愛戀的心</h5>
+                        <p>十分關心自己周圍存在的事物，和所發生的種種現象，
+                                最初憑知覺和運動，後來憑理性和想像力，將外界所有事務
+                                吸收進來，也因此達成身心的發達，適應將來現象的環境。</p>
+                    <h5 id="list-item-9">喜歡小團體的活動</h5>
+                        <p>雖然在集中現象發生的時候，孩子喜歡安靜的獨自作業，
+                                但是如果工作本身的目的很明確又不難的話，通常他會慫恿
+                                其他孩子的加入，一起共同創作或是集體共同從事一項遊戲。</p>
+                    <h5 id="list-item-a">會比較選擇思考之後才行動</h5>
+                        <p>在教室內各種教具中，經常選擇自己最喜歡、最感興趣的來做，養成習慣以後對做其他事情也比較不會衝動，
+                            會經過大腦去比較、思考、選擇之後，才很有理性的行動。</p>
+                    <h5 id="list-item-b">直爽真誠的性格&豐富的情操</h5>
+                        <p>正直的特性，追求真、善、美的事物，厭棄醜惡的一面，
+                                並且時時自我期許，要做一個好孩子。</p>
+                    <h5 id="list-item-c">自立自主的養成</h5>
+                        <p>孩子想自立不求他人之幫助，雖然面臨各種困境，也要獨自去克服，蒙特梭利有一句名言，
+                            就是 [ 幫助我 ] 成為一個凡事可以自己來的人。</p>
+                    <h5 id="list-item-d">自發性的自我訓練</h5>
+                        <p>正常化的孩子常會自我訂正目標自我勉勵，比如說：在很多教具當中，找出自己還不會的或是失敗的，
+                            不斷努力自我訓練，希望成為更棒的人。因此教室內的教具雖然需要顧及安全性，但是在課題上沒有挑戰性的東西，
+                            也不能引起他的興趣，用一些難度可以培養他付出一番心血之後，得到成功的喜悅和自信心，並使他知道忍耐的價值。</p>
+                    <h5 id="list-item-e">洋溢喜悅滿足的充實感</h5>
+                        <p>透過操作自己選擇的教具，隨心所欲做完一件工作時，內在的
+                                滿足快樂無可言語，好比做了自己想做的事，而且十分盡興，
+                                會讓他覺得自己生活很充實，培養對人生樂觀、積極的態度。</p>
+                    <h5 id="list-item-f">情緒安定又自信</h5>
+                        <p>當他追求知識的慾望得到滿足時，內心豐富的感受會使
+                                情緒安定，並對自己人生充滿自信。</p>
+                    <h5 id="list-item-g">對邪惡的誘惑心存警惕</h5>
+                        <p>克服萬難，儘量讓自己不要犯錯。孩子對什麼是邪惡，什麼叫壞人
+                                很在意，並以知性和良心打敗邪惡的引誘，正常化的孩子內在
+                                接近於本性善的狀態。</p>
+                    <h5 id="list-item-h">具有良好的社交能力</h5>
+                        <p>有責任感、守規律、對他人親切、深情、樂於助人、
+                                有服務精神、且具有榮譽心，自己會對於良好的社會
+                                關係富有責任感，所有對他生涯的人格影響很大。</p>
+                </div> 
+                <div class="wow3" style="text-align: center">
+                    <a  href="#list-item-1"><img src="./images/top.gif" alt=""></a> 
+                </div>
+            </div>                
+        </div>
+    </div>
     <script src="./js/jquery-3.4.1.min.js"></script> <!-- 步驟有可錯, 先放jquery再放bootstrap -->
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/jquery.flexslider-min.js"></script>
@@ -114,6 +197,11 @@
             itemMargin: 0,
             minItems: 2,
             maxItems: 2
+        });
+    </script>
+    <script>
+        $('body').scrollspy({
+            target: "#navbar-example"
         });
     </script>
 </body>
