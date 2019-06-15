@@ -1,0 +1,16 @@
+2019.6.15
+
+
+google analytics
+
+登人google帳號
+管理/資源設定
+https://cindylai0753.github.io/ivyschool/
+
+版本管控軟體-電腦的資料夾內有資料變更, 立刻會產生新版本
+https://www.gitkraken.com/
+
+1. 下戴/安裝 gitkraken
+2. file/clone repo 雲端下戴到c:\github\xxxx
+3. file/open a repository 開啟本機資料夾
+4. 
